@@ -50,6 +50,7 @@ Note: all events returned are sorted by creation time
 
 
 ###Run Tests
+* bin/rails db:migrate RAILS_ENV=test
 * bundle exec rspec
 
 ###Info

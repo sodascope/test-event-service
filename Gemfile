@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
 
+gem 'mysql2'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -23,7 +24,6 @@ gem 'puma', '~> 3.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'mysql2'
   gem 'mocha', :require => false
   gem 'rspec', '~> 3.5.0'
   gem 'rspec-rails', '3.5.1'
@@ -43,7 +43,6 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
