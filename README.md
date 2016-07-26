@@ -13,6 +13,7 @@ An example rails api project to save and retrieve events.
 * bundle install
 * rake db:create
 * rake db:migrate
+* rake db:seed 
 * rails s
 
 ### Use
@@ -41,9 +42,9 @@ Retrieve last n events from org "dep2"
 
 	GET: http://localhost:3000/events/dep2?n=10
 	
-Retrieve last n events from org "dep2" with host "misterYY"
+Retrieve last n events from org "dep2" with host "hostAB"
 
-	GET: http://localhost:3000/events/dep2/misterYY?n=10
+	GET: http://localhost:3000/events/dep2/hostAB?n=10
 	
 Note: all events returned are sorted by creation time
 
