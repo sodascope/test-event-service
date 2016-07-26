@@ -54,6 +54,7 @@ Note: all events returned are sorted by creation time
 
 ###Info
 * Ruby v2.3.0
+* RVM v1.27.0
 * Rails v5.0
 * Rspec v3.5.0
 * Coverage
